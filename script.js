@@ -20,8 +20,8 @@ const updateDimensions = function () {
   let ih = window.innerHeight;
   let ow = window.outerWidth;
   let oh = window.outerHeight;
-  inner.textContent = `${iw}px x ${ih}`;
-  outer.textContent = `${ow}px x ${oh}`;
+  inner.textContent = `${iw}px x ${ih}px`;
+  outer.textContent = `${ow}px x ${oh}px`;
 };
 
 updateDimensions();
