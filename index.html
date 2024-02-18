@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Window Info</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="droptarget" class="dropzone"><h3>Drop Zone 1</h3></div>
+      <h1>Window Info</h1>
+      <div class="columns">
+        <div class="dropzone" id="droptarget2">
+          <h3>Drop Zone 2</h3>
+          <div class="draggable" draggable="true" id="draggable">
+            <p class="name inner">inner</p>
+            <p class="info inner" id="inner">info</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag2">
+            <p class="name outer">outer</p>
+            <p class="info outer" id="outer">info</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag3">
+            <p class="name cursor">cursor</p>
+            <p class="info cursor" id="cursor">info</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag4">
+            <p class="name keypress">keypress</p>
+            <p class="info keypress" id="keypress">keypress</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag5">
+            <p class="name pressed">pressed</p>
+            <p class="info pressed" id="pressed">keypress</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag6">
+            <p class="name clickCoordinates">coords</p>
+            <p class="info clickCoordinates" id="coords">coords</p>
+          </div>
+          <div class="draggable" draggable="true" id="drag7">
+            <p class="name clicks">clicks</p>
+            <p class="info clicks" id="clicked">clicked</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
