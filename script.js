@@ -52,7 +52,7 @@ const updateKeypress = function (event) {
 
 const captureClick = function (event) {
   x = event.pageX;
-  y = event.pageX;
+  y = event.pageY;
   clickCoordinates.innerText = `x: ${x} y: ${y}`;
   numClicks++;
   clicks.textContent = numClicks;
