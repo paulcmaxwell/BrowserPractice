@@ -46,7 +46,8 @@ p {
 }
 
 .dropzone {
-  border: 2px solid #333333;
+  border: 2px solid #222222;
+  box-shadow: #222222;
   width: 300px;
   min-height: 200px;
   margin-bottom: 10px;
